@@ -18,10 +18,16 @@ body {
 .home-header {
   text-align: center;
   font-family: 'Sacramento', cursive;
-  font-weight: bolder;
+  font-weight: normal;
   font-size: 5rem;
   color: #1E1812;
 
+}
+
+.home-subhead {
+  margin-top: -2rem;
+  font-weight: normal;
+  text-align: center;
 }
 
 a {

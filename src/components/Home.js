@@ -22,6 +22,9 @@ class Home extends React.Component {
         <h1 className="home-header" ref={c => (this.header = c)}>
           Nails by Cails
         </h1>
+        <h2 className="home-subhead">
+          Established nail technician with a focus on handpainted designs
+        </h2>
 
         <Link
           ref={l => (this.button = findDOMNode(l))}

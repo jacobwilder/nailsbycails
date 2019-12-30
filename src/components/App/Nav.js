@@ -21,6 +21,11 @@ class Nav extends React.Component {
             Portfolio
           </NavLink>
         </li>
+        <li>
+          <NavLink activeClassName="active" to="/contact">
+            Contact
+          </NavLink>
+        </li>
       </ul>
     </div>
     );

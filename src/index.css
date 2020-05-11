@@ -61,7 +61,7 @@ li {
 
 .button {
   color: #0a0a0a;
-  background: #DE6953;
+  background: #DF8C95;
   border: none;
   font-size: 16px;
   border-radius: 3px;
@@ -75,13 +75,13 @@ li {
 }
 
 .button:hover {
-  background: #DB5A42;
+  background: #F1D1B5;
   color: #1E1812;
   cursor: pointer;
 }
 
 .button:hover:enabled {
-  background: #DB5A42;
+  background: #F1D1B5;
   color: #1E1812;
   text-decoration: none;
 }
@@ -360,56 +360,56 @@ height: 300px;
 
 
 body{
-  background: #FFD275;
+  background: #FFEBCF;
 }
 
 
 .circle{
   position: absolute;
   border-radius: 50%;
-  background: #DB5A42;
+  background: #F18C8E;
   animation: ripple 15s infinite;
-  box-shadow: 0px 0px 1px 0px #508fb9;
+  box-shadow: 0px 0px 1px 0px #305F72;
   z-index: -255;
 }
 
 .small{
   width: 200px;
   height: 200px;
-  left: -100px;
-  bottom: -100px;
+  left: 570px;
+  bottom: 550px;
   z-index: -255;
 }
 
 .medium{
   width: 400px;
   height: 400px;
-  left: -200px;
-  bottom: -200px;
+  left: 470px;
+  bottom: 450px;
   z-index: -255;
 }
 
 .large{
   width: 600px;
   height: 600px;
-  left: -300px;
-  bottom: -300px;
+  left: 370px;
+  bottom: 350px;
   z-index: -255;
 }
 
 .xlarge{
   width: 800px;
   height: 800px;
-  left: -400px;
-  bottom: -400px;
+  left: 270px;
+  bottom: 250px;
   z-index: -255;
 }
 
 .xxlarge{
   width: 1000px;
   height: 1000px;
-  left: -500px;
-  bottom: -500px;
+  left: 170px;
+  bottom: 150px;
   z-index: -255;
 }
 
@@ -555,26 +555,38 @@ th, td {
   margin-right: 5rem
 }
 
+.price-list {
+  width: 35%;
+  height: 35%;
+  margin: 0px 25px 0px 25px;
+  border: 1px solid #0a0a0a;
+}
+
+.price-container {
+  flex-flow: column;
+}
+
 #experience, #certification, #awards {
   display: list-item
 }
 
 body::-webkit-scrollbar, .tableDiv::-webkit-scrollbar {
-  background: linear-gradient(#618cdd,
-  #8cb6e6);
-  width: 10px
+  background: linear-gradient(#F0B7A4,
+  #F18C8E);
+  width: 10px;
+  height: 10px;
 }
 
 /* background of the scrollbar except button or resizer */
 body::-webkit-scrollbar-track, .tableDiv::-webkit-scrollbar-track {
-  background: linear-gradient(#618cdd,
-    #8cb6e6);
+  background: linear-gradient(#F0B7A4,
+    #F18C8E);
 }
 
 /* scrollbar itself */
 body::-webkit-scrollbar-thumb, .tableDiv::-webkit-scrollbar-thumb{
-  background-color: lightskyblue;
-  border-radius: 16px;
+  background-color: #F0B7A4;
+  border-radius: 15px;
   border: 1px solid #fff;
 }
 

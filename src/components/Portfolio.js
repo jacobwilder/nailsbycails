@@ -23,14 +23,14 @@ class Portfolio extends React.Component {
       this.renderGridData("all");
     }
 
-    renderGridData(language) {
-        async function fetchData(){
-            let link = "https://api.instagram.com/oauth/access_token";
-            if(language !== "all"){
-                link = link +
-            }
-        }
-    }
+    // renderGridData(language) {
+    //     async function fetchData(){
+    //         let link = "https://api.instagram.com/oauth/access_token";
+    //         if(language !== "all"){
+    //             link = link +
+    //         }
+    //     }
+    // }
   
     componentDidMount() {
       fetch("https://api.instagram.com/oauth/access_token")

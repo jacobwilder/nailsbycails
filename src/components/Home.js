@@ -27,7 +27,7 @@ class Home extends React.Component {
           className="button"
           to="/about"
         >
-          Enter
+          Click Here!
         </Link>
       </div>
     );

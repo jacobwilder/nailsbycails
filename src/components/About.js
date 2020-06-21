@@ -23,9 +23,9 @@ class About extends React.Component {
       <div className="about-container">
         <h1 className="about-header">About Me</h1>
           <img className="profile-pic" src={ProfilePic}></img>
-          <p className="about-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Sed aliquam, ipsum et finibus dignissim, enim felis consequat risus, vel malesuada eros tortor nec ipsum. 
-            Pellentesque elementum augue id accumsan pellentesque. Cras eget lectus at augue ultricies maximus et eget tellus. 
+          <p className="about-p">Hi! I am an established nail technician operating out of central New Jersey.
+            I specialize in handpainted designs on acrylic nails and will always push you to do something crazy
+            on them! 
             Prices on all work can be found below!
           </p>
           <br></br>
